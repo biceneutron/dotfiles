@@ -82,7 +82,10 @@ install_terminal() {
 
 install_tools() {
     # brew install --cask visual-studio-code
-    brew install tmux htop
+    brew install zellij htop
+
+    mkdir -p ~/.config
+    sym_link $ROOT_PATH/zellij ~/.config/zellij
 }
 
 
