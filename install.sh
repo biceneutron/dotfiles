@@ -56,6 +56,7 @@ install_shell() {
     # Settings for zsh plugins are in .zshrc
     brew tap homebrew/cask-fonts
     brew install --cask font-code-new-roman-nerd-font
+    brew install --cask font-jetbrains-mono-nerd-font
     # Hack nerd font has to be installed manually for now.
     # https://github.com/ryanoasis/nerd-fonts/issues/1003
     # brew install --cask font-hack-nerd-font
@@ -66,9 +67,7 @@ install_shell() {
 
 
 install_terminal() {
-    # install alacritty terminal and terminfo
-    # #NOTE as of v0.9.0 release, M1 builds are not available through
-    # brew, so a manual clone of alacritty and 'make app', and copy to /Applications is required
+    brew install --cask alacritty
 
     info "Configuring terminal..."
     mkdir -p ~/.config

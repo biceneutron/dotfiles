@@ -11,7 +11,7 @@ end
 
 local packer_bootstrap = ensure_packer()
 
-return require('packer').startup({function(use)
+return require('packer').startup({ function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
@@ -25,7 +25,8 @@ return require('packer').startup({function(use)
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
     -- use('rebelot/kanagawa.nvim')
-    use("folke/tokyonight.nvim")
+    -- use("folke/tokyonight.nvim")
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use {
         "ThePrimeagen/harpoon",
@@ -87,5 +88,4 @@ return require('packer').startup({function(use)
     --     print('packer syncing from bootstrap')
     --     require("packer").sync()
     -- end
-
-end})
+end })
