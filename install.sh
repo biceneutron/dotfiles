@@ -81,11 +81,14 @@ install_terminal() {
 
 
 install_tools() {
-    # brew install --cask visual-studio-code
     brew install zellij htop
+    brew install --cask visual-studio-code || true
 
     mkdir -p ~/.config
     sym_link $ROOT_PATH/zellij ~/.config/zellij
+
+    mkdir -p ~/Library/Application\ Support/Code/User
+    cp -rf vscode/* ~/Library/Application\ Support/Code/User/
 }
 
 

@@ -1,0 +1,17 @@
+{
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "editor.smoothScrolling": true,
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true
+    },
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.colorCustomizations": {
+        "editor.findMatchBackground": "#B48EAD",
+        "editor.findMatchHighlightBackground": "#4C566A",
+        // "editor.findMatchBorder": "#BF616A"
+    },
+    "editor.formatOnSave": true,
+}

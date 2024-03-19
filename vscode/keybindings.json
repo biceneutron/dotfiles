@@ -1,0 +1,97 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+,",
+        "command": "-workbench.action.openSettings"
+    },
+    {
+        "key": "alt+cmd+,",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "alt+cmd+.",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleEditorWidths"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+pagedown",
+        "command": "-scrollPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+pageup",
+        "command": "-scrollPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pagedown",
+        "command": "scrollLineDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-scrollLineDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pageup",
+        "command": "scrollLineUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-scrollLineUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "scrollPageDown"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "scrollPageUp"
+    },
+    {
+        "key": "ctrl+shift",
+        "command": "cursorMove",
+        "args": {
+            "to": "viewPortCenter"
+        }
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    }
+]
